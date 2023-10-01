@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script:wght@500&family=Hind&family=Kanit:ital,wght@1,300&family=MuseoModerno:ital,wght@1,500&family=Tilt+Prism&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Hind', sans-serif;
+}
+
+.wrapper{
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.container{
+   margin-top: 2rem;
+   margin-left: 35rem;
+   width: 350px;
+   height: 550px;
+   background-color:#00d4ff;
+   border-radius: 30px;
+}
+
+
+h1{
+   position: relative;
+   font-size: 3rem;
+   top: 1rem;
+   left: 38rem;
+    color: yellowgreen;
+}
+.display{
+   margin-top: 1rem;
+   margin-left: 1rem;
+   width: 310px;
+   height: 3rem;
+   border-radius: 20px;
+   border: 5px solid yellowgreen;
+   font-size: 1.5rem;
+   padding-left: 1rem;
+   font-family: 'Black Ops One', cursive;
+}
+
+.btn{
+    display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 2rem;
+
+}
+
+ button{
+    border: 5px solid yellowgreen;
+    border-radius: 10px;
+    width: 50px;
+    height: 60px;
+    font-size: 1.2rem;
+    font-family: 'Black Ops One', cursive;
+}
+
+.btn1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+#equal{
+    width: 125px;
+}
+
+@media screen and (max-width: 920px){
+    h1{
+    left: 8rem; 
+    }
+    .container{
+        margin-left: 5rem;
+    }
+}
+
+@media screen and (max-width: 450px){
+    h1{
+        font-size: 3rem;
+        left: 3rem; 
+        }
+    .display{
+        width: 210px;
+    }
+    .container{
+        margin-left: 1rem;
+        width: 250px;
+        height: 450px;
+    }
+    button{
+        width: 40px;
+        height: 40px;
+    }
+}
