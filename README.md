@@ -67,4 +67,3 @@ If you would like to contribute to this project, please follow these steps:
 Feel free to reach out if you have any questions or need further assistance with this project.
 
 Happy coding!
-```
